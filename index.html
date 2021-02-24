@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
  
 </head>
 <body>
@@ -14,13 +16,13 @@
 
     <div class="nav">
       <div class="logo">
-        <h4>ZdrowieCovid <i class="fas fa-laptop-medical"></i></h4>
+        <h4> <span style="position: relative; bottom: 4px; font-size: 28px;">MEBLE</span>  	&nbsp; 	&nbsp; <img style="height: 40px" src="assets/lamp.png" alt=""></h4>
       </div>
       <div class="links">
-        <a class="link" href="#" style="color: darkblue; font-size: 20px;">Informacje o Covid </a>
-        <a class="link" href="#">Pomoc</a>
-        <a class="link" href="#">Aktualizacje</a>
-        <a class="link" href="#">Kontakt</a>
+        <a class="link" href="#">Strona główna </a>
+        <a class="link" href="#section2">Kuchnia</a>
+        <a class="link" href="#section3">Aranżacje kuchni</a>
+        <a class="link" href="#section4">Weather App</a>
       </div>
     </div>
 
@@ -29,12 +31,14 @@
     <div class="homepage">
       <div class="container">
         <h2 class="homepage_header1">Czas na</h2>
-        <h2 class="homepage_header">wymarzoną kuchnie</h2>
+        <h2 class="homepage_header">wymarzoną kuchnię</h2>
       </div>
     </div>
 
 
     <!-- INFOCARDS -->
+
+    <div id="section2"></div>
 
     <section class="cards">
       <div class="row">
@@ -49,8 +53,9 @@
               <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></p>
               <!-- przecieta cena -->
               <div class="price1">
+                <div class="line1"></div>
                 <p>999,-</p>
-                <p>699,- <span>szt.</span></p>
+                <p style="font-size: 38px; position: relative; bottom: 20px">699,- <span style="font-size: 8px; position: relative; top: 2px;">szt.</span></p>
               </div>
           </div>  
        </div>
@@ -59,13 +64,14 @@
           <div class="card-header">
             <img src="assets/product_2_img@1X.png" alt="">
           </div>
-          <p>Zlewozmywak Miló Plus z baterią</p>
+          <p>Zestaw mebli kuchennych NAPOLI</p>
           <!-- gwiazdki -->
           <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></p>
           <!-- przecieta cena -->
           <div class="price1">
-            <p>999,-</p>
-            <p>699,- <span>szt.</span></p>
+            <div class="line2"></div>
+            <p> <del>3999,99</del> -</p>
+            <p style="font-size: 38px; position: relative; bottom: 20px"> 2499,- <span style="font-size: 8px; position: relative; top: 2px;">szt.</span></p>
           </div>
         </div>
 
@@ -73,13 +79,14 @@
           <div class="card-header">
             <img src="assets/product_3_img@1X.png" alt="">
           </div>
-          <p>Zlewozmywak Miló Plus z baterią</p>
+          <p>Baliv Bateria kuchenna KI-1460</p>
           <!-- gwiazdki -->
           <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i></p>
           <!-- przecieta cena -->
           <div class="price1">
-            <p>999,-</p>
-            <p>699,- <span>szt.</span></p>
+            <div class="line1"></div>
+            <p>299,- </p>
+            <p style="font-size: 38px; position: relative; bottom: 20px">199,- <span style="font-size: 8px; position: relative; top: 2px;">szt.</span></p>
           </div>
         </div>
 
@@ -88,6 +95,8 @@
 
 
     <!-- GO-TO -->
+
+
 
     <section class="goto">
       <div class="container">
@@ -100,7 +109,7 @@
       </div>
     </section>
   
-
+    <div id="section3"></div>
 
     <!-- SLIDER -->
 
@@ -129,12 +138,12 @@
             <img src="assets/Kuchnia biala 5@1X.png" alt="">
           </div>
 
-          <div class="navigation-auto">
+          <!-- <div class="navigation-auto">
             <div class="auto-btn1"></div>
             <div class="auto-btn2"></div>
             <div class="auto-btn3"></div>
             <div class="auto-btn4"></div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -183,16 +192,17 @@
           <img src="assets/gazetka_800.svg" alt="">
         </div>
         <div class="col">
-          <h2>Nowa gazetka już jest!</h2>
+          <h2 style="font-size: 42px">Nowa gazetka już jest!</h2>
           <div class="button-cont">
-            <button>Zobacz wszystko <i class="fas fa-caret-right"></i> </button>
-            <button>Zobacz gazetkę PDF <i class="fas fa-caret-right"></i></button>
+            <button>Zobacz wszystko &nbsp;	 <i class="fas fa-caret-right"></i> </button>
+            <button>Zobacz gazetkę PDF &nbsp;	 <i class="fas fa-caret-right"></i></button>
           </div>
         </div>
       </div>
     </section>
 
 
+    <div id="section4"></div>
 
     
     <div class="search-container">
@@ -216,8 +226,10 @@
         </div>
       </div>
       <div class="box1">
-          <h1>Wyszukaj swoje miasto i zobacz pogodę </h1>
-          <h2>A to wszystko dzieki naszej prostej aplikacji </h2>
+          <h1 style="font-size: 32px">Wpisz miasto w wyszukiwarce obok i zobacz aktualną  <span style="color: orange">Pogode</span>  </h1>
+          <h4 style="margin-top: 30px;">Po wpisaniu miasta zatwierdź naciskając Enter</h4> 
+          <h4>Wyniki wyszukiwania pojawią się po lewej stronie </h4>
+          <h4>w języku angielskim</h4>
       </div>
 
 
@@ -233,6 +245,6 @@
   
 
   <script src="https://kit.fontawesome.com/b0102e3540.js" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
