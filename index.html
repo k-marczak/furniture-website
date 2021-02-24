@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
- 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 <body>
 
@@ -30,8 +32,8 @@
 
     <div class="homepage">
       <div class="container">
-        <h2 class="homepage_header1">Czas na</h2>
-        <h2 class="homepage_header">wymarzoną kuchnię</h2>
+        <h2 class="homepage_header1" data-aos="fade-right" data-aos-once="true">Czas na</h2>
+        <h2 class="homepage_header" data-aos="fade-right" data-aos-once="true" data-aos-delay="350">wymarzoną kuchnię</h2>
       </div>
     </div>
 
@@ -168,13 +170,13 @@
 
     <section class="ideas">
       <div class="container columns">
-        <div class="col">
+        <div class="col" data-aos="fade" data-aos-delay="250" data-aos-duration="2000"  data-aos-once="true">
           <img src="assets/Layer 1829@1X.png" alt="">
           <h1>10 pomysłów na nową kuchnie</h1>
           <p>Tęskniąc za pomieszczeniem pełnym ciepła i rodzinnej atmosfery, wielu z nas nie chce powtarzać schematów aranżacyjnych i pragnie stworzyć własny świat, według swoich zasad. Jak urządzić kuchnię, by była niepowtarzalna?</p>
           <button>Zobacz więcej <i class="fas fa-caret-right"></i></button>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade" data-aos-delay="250" data-aos-duration="2000"  data-aos-once="true">
           <img src="assets/Layer 1830@1X.png" alt="">
           
           <h1 style="width: 60%; margin: 10px auto">Amatura kuchenna - jakiego wyposażenia nie może zabraknąć?</h1>
@@ -244,7 +246,15 @@
   </div>
   
 
+
+
+ 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://kit.fontawesome.com/b0102e3540.js" crossorigin="anonymous"></script>
   <script src="./js/app.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
 </body>
 </html>

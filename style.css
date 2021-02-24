@@ -47,11 +47,14 @@ html, body{
 
 .homepage{
     margin-top: 80px;
+    overflow-y: hidden !important;
+
 }
 
 .homepage .container{
     background: url('./assets/HEADER_1500@1X\ \(1\).png') no-repeat center center/cover;
     height: 550px;
+    overflow: hidden;
 }
 
 .homepage_header1{
@@ -287,6 +290,12 @@ html, body{
     position: relative;
     top: 30px;
     color: white;
+    transition: 0.6s;
+}
+
+.col button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .obi{
@@ -400,6 +409,38 @@ html, body{
 @media screen and (max-width: 1200px){
     .box{
         width: 40%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+
+    .homepage{
+        height: 100vh;
+    }
+
+    .homepage_header1{
+        font-size: 32px;
+        display: block;
+    }
+    .homepage_header{
+        font-size: 32px;
+        display: block;
     }
 }
 
