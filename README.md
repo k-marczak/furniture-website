@@ -16,7 +16,7 @@ Landing page website using HTML CSS
 - JS
 - dotenv
 - OPENWEATHER weather_api
-- 
+- AOS
 
 ---
 
