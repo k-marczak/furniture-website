@@ -1,0 +1,281 @@
+html, body{
+    background-color: whitesmoke;
+    font-family: 'Catamaran', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    text-decoration: none;
+}
+
+/* Nav */
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ /* HOMEPAGE */
+
+.homepage{
+    margin-top: 80px;
+}
+
+.homepage .container{
+    background: url('./assets/HEADER_1500@1X\ \(1\).png') no-repeat center center/cover;
+    height: 550px;
+}
+
+.homepage_header1{
+    position: absolute;
+    top: 470px;
+    padding: 10px;
+    background: orange;
+    left: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    font-weight: bold;
+    
+}
+
+.homepage_header{
+    position: absolute;
+    top: 540px;
+    padding: 10px;
+    background: orange;
+    left: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    
+}
+
+
+/* CARDS */
+
+.row img{
+    height: 401px;
+    width: 400px;
+}
+
+.cards{
+    margin-top: 80px;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.box{
+    width: 33%;
+   
+}
+
+.card-header{
+    text-align: center;
+}
+
+.box p{
+    margin-left: 50px;
+}
+
+/* Go-TO */
+
+.goto .container{
+    text-align: center;
+
+    height: 150px;
+    background-color: lightgray;
+
+}
+
+.goto .container h1{
+    position: relative;
+    top: 30px;
+    font-size: 34px;
+}
+
+.btn-container{
+    position: relative;
+    top: 30px;
+}
+
+.btn-container button{
+    border: none;
+    padding: 8px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 15px;
+
+}
+
+
+/* slider */
+
+.slider-section h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 37px;
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* overflow-x: hidden; */
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+
+}
+
+.slides input{
+    display: none;
+
+}
+
+.slide{
+    width: 25%;
+    transition: 2s;
+   
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+
+/* manual slide navigation */
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 3px solid white;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+
+/* IDEAS */
+
+.ideas{
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+    height: 650px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.col{
+    width: 50%;
+}
+
+.col p{
+    position: relative;
+    top: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col button{
+    padding: 8px 14px;
+    border: none;
+    background: orange;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+}
+
+.obi{
+    overflow: hidden;
+    height: 400px;
+}
+
+.container-full{
+    background: url("assets/Webp.net-resizeimage.png") no-repeat right ;
+    background: url("assets/Webp.net-resizeimage.png") no-repeat center ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.container-full .col{
+    width: 50%;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .box{
+        width: 40%;
+    }
+}
+
