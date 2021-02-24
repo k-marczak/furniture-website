@@ -1,0 +1,22 @@
+{
+  "name": "work-project",
+  "version": "1.0.0",
+  "description": "Obi landing-page website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-marczak/obi-project.git"
+  },
+  "author": "k-marczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-marczak/obi-project/issues"
+  },
+  "homepage": "https://github.com/k-marczak/obi-project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

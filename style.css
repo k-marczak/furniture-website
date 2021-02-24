@@ -96,7 +96,7 @@ html, body{
     position: relative;
     top: 30px;
     left: 55px;
-    z-index: 100000;
+    z-index: 100;
     transform: rotate(20deg);
 
 }
@@ -108,7 +108,7 @@ html, body{
     position: relative;
     top: 30px;
     left: 62px;
-    z-index: 100000;
+    z-index: 100;
     transform: rotate(15deg);
 
 }
@@ -414,7 +414,7 @@ html, body{
 
 
 
-
+            /* MEDIA QUERIES RESPONSIVE */
 
 
 @media screen and (max-width: 1200px){
@@ -440,6 +440,28 @@ html, body{
 
 
 @media screen and (max-width: 450px){
+
+    .second{
+        position: relative;
+        left: 18px;
+    }
+
+    .nav{
+        height: 105px;
+    }
+
+    
+
+    .links{
+        position: relative;
+        bottom: 14px;
+    }
+
+    .logo{
+        position: relative;
+        bottom: 3px;
+       
+    }
 
    
 
@@ -484,14 +506,10 @@ html, body{
         width: 100%;
     }
 
-    .navigation-manual{
-        position: absolute;
-        left: -190px;
-        
-    }
+    
 
     .ideas{
-        height: 1470px;
+        height: 1570px;
     }
 
     .columns{
@@ -500,6 +518,7 @@ html, body{
 
     .col{
         width: 100%;
+        margin-top: 50px;
     }
   
 
@@ -531,6 +550,16 @@ html, body{
 
     .box1{
         width: 100%;
+    }
+
+    .wrapper{
+       
+        overflow: hidden !important;
+    }
+
+    .navigation-manual{
+        width: 300px !important;
+
     }
 
 }
