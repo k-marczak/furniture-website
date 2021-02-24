@@ -184,6 +184,11 @@ html, body{
     margin-bottom: 30px;
     padding: 20px;
     font-size: 37px;
+   
+}
+
+.slider-section{
+    overflow-x: hidden !important;
 }
 
 .slider{
@@ -191,13 +196,15 @@ html, body{
     height: 400px;
     border-radius: 10px;
     margin: 0 auto;
-    overflow-x: hidden;
+    
+    overflow: hidden;
 }
 
 .slides{
     width: 500%;
     height: 400px;
     display: flex;
+    overflow: hidden;
 
 }
 
@@ -454,5 +461,76 @@ html, body{
     .box{
         width: 100%;
     }
-}
 
+    .goto .container{
+        height: 200px;
+    }
+
+    .btn-container button{
+        margin: 5px;
+    }
+
+    
+    
+    .slider-section{
+        width: 400px !important;
+    }
+    
+    .slider{
+        width: 300px;
+    }
+    
+    .slides img{
+        width: 100%;
+    }
+
+    .navigation-manual{
+        position: absolute;
+        left: -190px;
+        
+    }
+
+    .ideas{
+        height: 1470px;
+    }
+
+    .columns{
+        flex-direction: column;
+    }
+
+    .col{
+        width: 100%;
+    }
+  
+
+    .paper{
+        font-size: 26px !important;
+        position: relative;
+        right: 30px;
+        
+    }
+
+    .button-cont{
+        position: relative;
+        right: 80px;
+    }
+
+    .button-cont button{
+        padding: 8px 12px;
+        font-size: 19px;
+        width: 230px;
+        margin: 4px 0;
+        
+    }
+
+    .weather-api{
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .box1{
+        width: 100%;
+    }
+
+}
